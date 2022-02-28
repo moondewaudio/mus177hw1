@@ -1,0 +1,15 @@
+#N canvas 211 215 1920 997 12;
+#X obj 182 98 moonfold;
+#X floatatom 144 55 5 0 0 0 - - - 0;
+#X floatatom 255 61 5 0 0 0 - - - 0;
+#X floatatom 184 169 5 0 0 0 - - - 0;
+#X text 144 24 Input #;
+#X text 249 21 Fold Limit;
+#X text 160 233 This external takes an input and folds it to lie between
+the fold limit and 0 If the input number is greater than the fold limit
+by n \, then it is folded to be less than the limit by n. If the new
+number is negative \, then it's magnitude is returned. This process
+is repeated until the final number is between 0 and the limit.;
+#X connect 0 0 3 0;
+#X connect 1 0 0 0;
+#X connect 2 0 0 1;
