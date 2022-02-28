@@ -1,0 +1,6 @@
+; /* export definition for moonfold */
+
+LIBRARY "moonfold"
+
+EXPORTS
+moonfold_setup
